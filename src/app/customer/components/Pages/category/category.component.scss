@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(/assets/banner.png);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    h1{
+        padding-bottom: 15px;
+    }
+    h1{
+        color: rgb(64, 121, 8);
+    }
+    button{
+        border: none;
+        padding: 2px 5px ;
+        color: #fff;
+        background-color: red;
+    }
+}
+.fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 15px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border-radius: 4px;
+    border: 1px solid #cce7d0;
+    margin: 15px 0;
+}
+.fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+}
+.fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(64, 121, 8);
+    background-color: bisque;
+}
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.product1{
+    text-align: center;
+    .pro{
+        width: 20%;
+        min-width: 250px;
+        padding: 10px 12px;
+        border: 1px solid #cce7d0;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+        margin: 15px 0;
+        transition: 0.2s ease;
+        position: relative;
+        .des{
+            text-align: start;
+            padding: 10px 0;
+            span{
+                color: #606063;
+                font-size: 12px;
+            }
+            h5{
+                padding-top: 7px;
+                color: black;
+                font-size: 14px;
+            }
+            i{
+                font-size: 12px;
+                color: rgb(255, 241, 46);
+            }
+            h4{
+                padding-top: 7px;
+                font-size: 15px;
+                font-weight: 700;
+                color: aquamarine;
+            }
+        }
+        img{
+            width: 100%;
+            border-radius: 20px;
+        }
+    }
+    .pro:hover{
+        box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+    }
+}
+.cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-weight: 500;
+    color: aquamarine;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    font-size: 30px;
+}
+.pro-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap; 
+    .pro{
+        width: 24%;
+        
+    }
+}
+.banner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(/assets/img/banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    h4{
+        color: #fff;
+        font-size: 16px;
+    }
+    h2{
+        color: #fff;
+        font-size: 30px;
+        padding: 10px 0;
+        span{
+            color: brown;
+        }
+    }
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+.banner1 button:hover{
+    background: #088178;
+    color: #fff;
+}
+
+.sm-banner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.banner-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: url(/assets/img/banner/b17.jpg);
+        min-width: 700px;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        padding: 30px;
+        button{
+            background: #088178;
+            color: #fff;
+            padding: 5px 20px;
+        }
+        h4{
+            color: #fff;
+        }
+        h2{
+            color: #fff;
+        }
+        span{
+            color: #fff;
+        }
+}
+.m1{
+    background-image: url(/assets/img/banner/b10.jpg);
+}
+.product1{
+    width: 75%;
+    margin: 0 auto;
+}
+.banner-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(/assets/img/banner/b17.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    
+    h2{
+        color: #fff;
+    }
+    h3{
+        color: #e92929;
+    }
+}
+.banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 80px;
+}
+.m3{
+    background-image: url(/assets/img/banner/b7.jpg);
+}
+.m4{
+    background-image: url(/assets/img/banner/b4.jpg);
+}
+.m5{
+    background-image: url(/assets/img/banner/b18.jpg);
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/assets/img/banner/b14.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgb(54, 11, 94);
+}
+.newstext{
+    padding-top: 20px;
+    padding-left: 20px;
+    h4{
+        color: #fff;
+    }
+    p{
+        color: #fff;
+        span{
+            color: #e92929;
+        }
+    }
+}
+.form{
+    display: flex;
+    padding-right: 20px;
+    input{
+        height: 3rem;
+        padding: 0 1.3em;
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+    }
+    button{
+        background-color: #088178;
+        color: #fff;
+        white-space: nowrap;
+        padding: 0 1.5em;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        outline: none;
+
+    }
+
+}
+
+
+@media (max-width:800px) {
+    .banner{
+        margin: 0 auto;
+    }
+    .banner-box {
+        padding-top: 20px;
+    }
+    .banner-box1 {
+        width: 700px;
+    }
+}

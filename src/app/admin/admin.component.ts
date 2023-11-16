@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+
 interface SideNavToggle {
     screenWidth: number;
     collapsed: boolean; // biểu trị trạng thái thu gọn
 }
+
 @Component({
     selector: 'app-admin',
     templateUrl: './admin.component.html',
